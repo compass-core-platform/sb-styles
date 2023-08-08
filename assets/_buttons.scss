@@ -464,6 +464,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   &:hover {
        text-decoration: none;
        background: var(--com-primary-hover);
+       color: var(--white);
   }
 
 }
@@ -486,5 +487,6 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   &:hover {
        text-decoration: none;
        border: calculateRem(1px) solid var(--com-primary-hover);
+       color: var(--com-primary-hover);
   }
 }
