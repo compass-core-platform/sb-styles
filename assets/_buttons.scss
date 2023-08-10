@@ -471,7 +471,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
 
 .com-secondary-btn {
   background: var(--white);
-  padding: calculateRem(8px) calculateRem(16px);
+  padding: calculateRem(10px) calculateRem(16px);
   border-radius: calculateRem(8px);
   font-size: .875rem;
   font-weight: 700;
@@ -490,3 +490,43 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
        color: var(--com-primary-hover);
   }
 }
+
+.com-basic-btn {
+  background: var(--white);
+  padding: calculateRem(10px) calculateRem(16px);
+  border-radius: calculateRem(8px);
+  font-size: calculateRem(14px);
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  color: var(--com-primary-color);
+  text-transform: uppercase;
+  border-radius: calculateRem(8px);
+  border: none;
+  &.active,
+  &:hover {
+       text-decoration: none;
+       color: var(--com-primary-hover);
+  }
+}
+
+.com-disabled-btn {
+    background:var(--com-grey);
+    padding: calculateRem(10px) calculateRem(16px);
+    border-radius: calculateRem(8px);
+    font-size: calculateRem(14px); 
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+    &.active,
+    &:hover {
+         text-decoration: none;
+         background: var(--com-grey-hr);
+         color: var(--white);
+    }
+  
+  }

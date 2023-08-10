@@ -170,5 +170,46 @@ a {
   cursor: pointer;
 }
 
+.display-one{
+  @include typography(var(--font-com-en), 36px, 600, -0.2px, 48px);
+}
+.headline {
+  @include typography(var(--font-com-en), 24px, 600, 0px, 36px);
+}
+
+.title {
+  @include typography(var(--font-com-en), 20px, 600, 0.12px, 36px);
+}
+
+.sub-heading{
+  &-one {
+    @include typography(var(--font-com-en), 16px, 600, 0.12px, 24px);
+  }
+  &-mobile {
+    @include typography(var(--font-com-lato), 16px, 600, 0.12px, 24px);
+  }
+  &-two {
+    @include typography(var(--font-com-lato), 14px, 600, 0.12px, 20px);
+  }
+}
+
+.body {
+  &-one {
+    @include typography(var(--font-com-lato), 16px, 400, 0.25px, 24px);
+  }
+  &-two {
+    @include typography(var(--font-com-lato), 14px, 400, 0.25px, 24px);
+  }
+}
+.btn {
+  @include typography(var(--font-com-lato), 14px, 700, 0.25px, 20px);
+}
+.caption {
+  @include typography(var(--font-com-lato), 12px, 400, 0.25px, 16px);
+}
+.label {
+  @include typography(var(--font-com-lato), 12px, 700, 0.5px, 12px);
+}
+
 
 /* typography styles ends */

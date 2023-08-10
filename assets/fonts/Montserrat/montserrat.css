@@ -1,7 +1,0 @@
-@font-face {
-    font-family: 'Montserrat';
-    font-display: swap;
-    src: url(./Montserrat-Light.ttf) format('truetype'),
-         url(./Montserrat-Medium.ttf) format('truetype')
-         url(./Montserrat-Bold.ttf) format('truetype');
-}
