@@ -1,6 +1,6 @@
 {
   "name": "compass-sb-styles",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/Sunbird-Ed/sb-styles/issues"
   },
-  "homepage": "https://github.com/Sunbird-Ed/sb-styles.git#readme",
-  "dependencies": {
-    "compass-sb-styles": "file:compass-sb-styles-0.0.2.tgz"
-  }
+  "homepage": "https://github.com/Sunbird-Ed/sb-styles.git#readme"
 }
