@@ -491,6 +491,28 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   }
 }
 
+.com-tertiary-btn {
+  background: var(--white);
+  padding: calculateRem(10px) calculateRem(16px);
+  border-radius: calculateRem(8px);
+  font-size: .875rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+  color: var(--com-primary-color);
+  border: 1px solid var(--com-grey-border);
+  justify-content: center;
+  border-radius: 8px;
+  &.active,
+  &:hover {
+       text-decoration: none;
+       border: calculateRem(1px) solid var(--com-primary-hover);
+       color: var(--com-primary-hover);
+  }
+}
+
 .com-basic-btn {
   background: var(--white);
   padding: calculateRem(10px) calculateRem(16px);
