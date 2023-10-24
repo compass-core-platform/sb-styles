@@ -459,7 +459,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.16);
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 0;
   &.active,
   &:hover {
        text-decoration: none;
@@ -482,7 +482,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   color: var(--com-primary-color);
   border: 1px solid var(--com-primary-color);
   justify-content: center;
-  border-radius: 8px;
+  border-radius:0;
   &.active,
   &:hover {
        text-decoration: none;
@@ -504,7 +504,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   color: var(--com-primary-color);
   border: 1px solid var(--com-grey-border);
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 0;
   &.active,
   &:hover {
        text-decoration: none;
@@ -523,7 +523,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
   white-space: nowrap;
   color: var(--com-primary-color);
   text-transform: uppercase;
-  border-radius: calculateRem(8px);
+  border-radius:0;
   border: none;
   &.active,
   &:hover {
@@ -542,7 +542,7 @@ $btnSquaresizes: "xs"1.5rem 1.5rem 1rem null,
     white-space: nowrap;
     color: var(--white);
     border: none;
-    border-radius: 8px;
+    border-radius: 0;
     text-transform: capitalize;
     &.active,
     &:hover {
